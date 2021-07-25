@@ -70,4 +70,12 @@ SELECT
 FROM
     address_book
 ORDER BY firstName;
+#uc9
+#Ability to identify each Address Book with type .
+alter table address_book add type varchar(15) after lastName;
+update  address_book set type='myself' where firstName ='Sunu';
+update  address_book set type='HaramiDost' where firstName ='akhil';
+update  address_book set type='HaramiDost' where firstName ='bhavan';
+
+
     
