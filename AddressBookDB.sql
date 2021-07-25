@@ -27,3 +27,11 @@ insert  into address_book(firstName,lastname,address,city,state,zip,phoneNo,emai
  ('achu','suraj','somewhere','valsad','Gujarat','396191','1236954125','cs@gmail.com');
  #display Contacts in address_book table
  select * from address_book;
+#uc4
+#Ability to edit existing contact person using their name
+UPDATE address_book 
+SET 
+    phoneNo = '7984147802'
+WHERE
+    firstName = 'Sunu';
+   
