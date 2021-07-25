@@ -40,5 +40,14 @@ WHERE
 DELETE FROM `address_book` 
 WHERE
     `firstName` = 'achu';
+#uc6
+#Ability to Retrieve Person belonging to a City or State from the Address Book
+
+SELECT 
+    *
+FROM
+    address_book
+WHERE
+    city = 'vapi';
    
     
