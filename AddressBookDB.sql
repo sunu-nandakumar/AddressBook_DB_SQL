@@ -34,4 +34,11 @@ SET
     phoneNo = '7984147802'
 WHERE
     firstName = 'Sunu';
+ 
+#uc5
+#Ability to delete person using FirstName
+DELETE FROM `address_book` 
+WHERE
+    `firstName` = 'achu';
    
+    
