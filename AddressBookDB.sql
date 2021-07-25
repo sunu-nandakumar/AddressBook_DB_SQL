@@ -63,5 +63,11 @@ SELECT
     COUNT(state) AS NumberOfaddress_book
 FROM
     address_book;
-   
+#uc8
+#Ability to retrieve entries sorted alphabetically by Person’s name for a given city
+SELECT 
+    *
+FROM
+    address_book
+ORDER BY firstName;
     
